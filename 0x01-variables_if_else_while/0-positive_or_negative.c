@@ -1,12 +1,12 @@
 1 #include <stdlib.h>
 2 #include <time.h>
-3 #include <stdio.h>
+3.#include <stdio.h>
 4
 5 /**
-6 *main -print random numbers to n whenever it is executed
-7 *
-8*Return: 0
-9 */
+6 \* main -print random numbers to n whenever it is executed
+7 \*
+8 \*Return: Always 0 (success)
+9 \*/
 10
 11  int main(void)
 12  {
@@ -17,7 +17,7 @@
 17
 18  if (n > 0)
 19  {
-20  printf("%d is negative\n", n);
+20  printf("%d is positive\n", n);
 21  }
 22  else if (n == 0)
 23  {
@@ -25,7 +25,7 @@
 25 }
 26  else
 27   {
-28  printf("%d is positive\n", n);
+28  printf("%d is negative\n", n);
 29  }
 30  return (0);
 31  }
