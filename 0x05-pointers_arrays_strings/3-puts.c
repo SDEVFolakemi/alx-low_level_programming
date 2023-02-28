@@ -2,17 +2,19 @@
 
 /**
  * _puts - prints a string
- * @str: the string
+ * @str: string
  *
  * Return: the length of the string
  */
-void _puts(char *str)
-{
-	int i = 0;
+int _strlen(char *s)
 
-	while (str[i] != '\0')
+	int longi - 0;
+
+	while (*s !- '\0')
 	{
-		_putchar(str[i]);
-		i++;
+		longi++;
+		s++;
 	}
+	return(longi);
+
 }
